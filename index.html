@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tumaree liyee chotaa surprise</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Global particles -->
+  <div class="particles" id="particles"></div>
+
+  <!-- Main card -->
+  <main class="card" role="main" aria-labelledby="title">
+    <h1 id="title" class="heading">Tumaree liyee chotaa surprise</h1>
+    <p class="sub">Heyyy, Love <span aria-hidden="true">❤️</span></p>
+    <p class="line">I have something for you <span aria-hidden="true">🦋</span></p>
+    <p class="line pink">
+     “Every day with you is special, but today is extra for <strong>YOU</strong> <span aria-hidden="true">💕</span>
+    </p>
+
+    <div class="cta-wrap">
+      <!-- 🔑 This is the ONLY button with id="ctaBtn" -->
+      <button class="cta" id="ctaBtn" aria-label="Open surprise">
+        Idharr Jor se Mukka maro😁 <span class="arrow">➤</span>
+      </button>
+      <div class="hint" aria-hidden="true">(Tap here to reveal your present: me, making your heart smile all day 💖🥰!)</div>
+    </div>
+  </main>
+
+  <!-- Surprise canvas (fireworks / balloons) -->
+  <canvas id="c"></canvas>
+
+  <!-- Last Surprise Button (appears after animation) -->
+  <div id="lastSurprise">
+    <button id="lastBtn" class="cta">Last Surprise For My Love ✨</button>
+  </div>
+
+  <!-- Slideshow (3D carousel) -->
+  <div id="slideshow">
+    <div class="carousel" id="carousel">
+      <figure><img src="./images/1.jpg" alt="Memory 1" /></figure>
+      <figure><img src="./images/2.jpg" alt="Memory 2" /></figure>
+      <figure><img src="./images/3.jpg" alt="Memory 3" /></figure>
+      <figure><img src="./images/4.jpg" alt="Memory 4" /></figure>
+      <figure><img src="./images/5.jpg" alt="Memory 5" /></figure>
+    </div>
+    <p>💖 Happy Birthday My Love 💖</p>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
